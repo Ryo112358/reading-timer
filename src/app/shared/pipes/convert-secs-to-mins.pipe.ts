@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'displayAsMinutes'
+  name: 'secondsToMinutes'
 })
 export class ConvertSecsToMinsPipe implements PipeTransform {
 
